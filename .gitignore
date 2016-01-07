@@ -1,0 +1,19 @@
+#Android Studio gitignore
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+
+#For older projects
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*~
+*.swp
+
+#specifically for this project
+/app/build
